@@ -1,0 +1,3 @@
+.success{font-size: 3em;font-weight: bolder; color:green;}
+.fail{font-size: 2em;font-weight: bolder; color:darkred;}
+.alert{font-size: 5em;font-weight: bolder; color:red;}
