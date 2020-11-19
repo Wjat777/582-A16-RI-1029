@@ -1,3 +1,4 @@
 function HelloWord(){
-    return '"Hello Word';
+    id=document.getElementById("result");
+    id.innerHTML="Bonjour le monde!";
 }
