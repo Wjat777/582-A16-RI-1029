@@ -90,7 +90,12 @@ function exercice4(value) {
   }
 }
 
-//override the function log to write inside the div myLog
+//
+effacer = function () {
+  var el = document.getElementById("myLog");
+  while (el.firstChild) el.removeChild(el.firstChild);
+};
+//remplace la fonction log pour écrire dans un div
 window.console = {
   log: function (str) {
     var node = document.createElement("div");
