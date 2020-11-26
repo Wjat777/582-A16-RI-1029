@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--Cours 6-->
+<!--Par: William John Adam Tridade-->
+<!--Date: 2020-11-25-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="js/dynamic.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>Cours 6</h1>
+    <div>
+      <ul>
+        <li><button onclick="exercice1()">Exercice 1</button></li>
+        <li>
+          <input type="text" id="quantity" placeholder="quantity" />
+          <input type="text" id="unit" placeholder="unit" />
+          <button
+            onclick="exercice2(document.getElementById('shortenBytes').value,document.getElementById('shortenBytes').value)"
+          >
+            Exercice 2
+          </button>
+        </li>
+
+        <li>
+          <input type="text" id="shortenBytes" placeholder="shortenBytes" />
+          <button
+            onclick="exercice3(document.getElementById('shortenBytes').value)"
+          >
+            Exercice 3
+          </button>
+        </li>
+        <input type="text" id="value1" placeholder="Saisir 0,1 ou 2" />
+            <button onclick="exercice4(Number(document.getElementById('value1').value))">Exercice 4</button>
+            <span>Avec valeur numérique</span>
+        </li>
+        <li>
+            <input type="text" id="value2" placeholder="Saisir 0,1 ou 2" />
+            
+            <button onclick="exercice4(document.getElementById('value2').value)">Exercice 4</button>
+            <span>Avec une chaine de caractères</span>
+        </li>
+      </ul>
+    </div>
+    <div id="myLog"></div>
+  </body>
+</html>
