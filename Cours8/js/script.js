@@ -1,4 +1,5 @@
 function Exercice1() {
+  console.log("------Exercice1------");
   function addition(x, y) {
     var somme = x + y;
     return somme;
@@ -11,6 +12,7 @@ function Exercice1() {
 }
 
 function Exercice2() {
+  console.log("------Exercice2------");
   var x = parseInt(document.getElementById("element2_x").value);
   if (x < 0) {
     console.log("Nombre négatif!");
@@ -20,6 +22,7 @@ function Exercice2() {
 }
 
 function Exercice3() {
+  console.log("------Exercice3------");
   function getMax(a, b, c) {
     if (a > b && a > c) max = a;
     else if (b > c) max = b;
@@ -34,6 +37,8 @@ function Exercice3() {
 }
 
 function Exercice4() {
+  console.log("------Exercice4------");
+
   function jourSemaine(jour) {
     switch (jour) {
       case 0:
@@ -67,6 +72,7 @@ function Exercice4() {
 }
 
 function Exercice4extra() {
+  console.log("------Exercice4 Extra------");
   function jourSemaine(jour) {
     switch (jour) {
       case 0:
@@ -110,6 +116,7 @@ function Exercice4extra() {
 }
 
 function Exercice5() {
+  console.log("------Exercice5------");
   function getMax(a, b, c) {
     max = a > b && a > c ? a : b > c ? b : c;
 
